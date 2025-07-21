@@ -1,2 +1,21 @@
-Sentiment-Analysis-NLP-with-Python
-The project is a simple sentiment analysis using NLP. The project in written in python with Jupyter notebook. It shows how to do text preprocessing (removing of bad words, stop words, lemmatization, tokenization). It further shows how to save a trained model, and use the model in a real life suitation. The machine learning algorithm model used here is k-Nearest Neighbor which is used to build the model. Various performance evaluation techniques are used, and they include confusion matrix, and Scikit-learn libraries classification report which give the accuracy, precision, recall and f1- score preformance of the model. The target values been classified are positive and negative review.
+# Sentiment Analysis with NLP
+
+A Natural Language Processing (NLP) project that classifies the sentiment of text data (positive, negative, neutral) using machine learning techniques.
+
+## 📌 Overview
+This project performs:
+- Text cleaning and preprocessing
+- Feature extraction using TF-IDF
+- Sentiment classification using Logistic Regression / Naive Bayes
+- Evaluation using accuracy, confusion matrix, and classification report
+
+## 📊 Dataset
+- Format: CSV or text file
+- Columns: `text`, `label`
+- Labels: positive / negative / neutral
+
+## 🛠️ Requirements
+Install dependencies:
+```bash
+pip install -r requirements.txt
+
